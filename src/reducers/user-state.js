@@ -1,7 +1,9 @@
 const SET_USERSTATE = 'scratch-gui/user-state/set-state'
 
 const initialState = {
-    tokken:null,
+    token: null,
+    nickName: null,
+    head: null
 };
 
 const reducer = function (state, action) {
@@ -9,7 +11,9 @@ const reducer = function (state, action) {
     switch (action.type) {
         case SET_USERSTATE:
             return Object.assign({}, state, {
-                tokken: action.tokken
+                tokken: action.token,
+                nickName: action.nickName,
+                head: action.head
             });
         default:
             return state;

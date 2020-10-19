@@ -20,7 +20,7 @@ const LoginButton = ({
             onClick={onClick}
         >
             <FormattedMessage
-                defaultMessage="请登录"
+                defaultMessage="请先登录"
                 description="Label for login"
                 id="gui.menuBar.login"
             />

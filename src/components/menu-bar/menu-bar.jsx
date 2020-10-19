@@ -23,8 +23,8 @@ import MenuBarMenu from './menu-bar-menu.jsx';
 import {MenuItem, MenuSection} from '../menu/menu.jsx';
 import ProjectTitleInput from './project-title-input.jsx';
 import AuthorInfo from './author-info.jsx';
-import AccountNav from '../../containers/account-nav.jsx';
-import LoginDropdown from './login-dropdown.jsx';
+// import AccountNav from '../../containers/account-nav.jsx';
+// import LoginDropdown from './login-dropdown.jsx';
 import LoginButton from './login-button.jsx';
 import SB3Downloader from '../../containers/sb3-downloader.jsx';
 import DeletionRestorer from '../../containers/deletion-restorer.jsx';
@@ -72,7 +72,7 @@ import dropdownCaret from './dropdown-caret.svg';
 import languageIcon from '../language-selector/language-icon.svg';
 import aboutIcon from './icon--about.svg';
 
-import scratchLogo from './scratch-logo.svg';
+import scratchLogo from './tranlogo.png';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -585,11 +585,14 @@ class MenuBar extends React.Component {
                             <SaveStatus />
                         )}
                     </div>
-                    {/* {this.props.sessionExists ? (
-                        this.props.username ? (
-                            // ************ user is logged in ************
+                    
+                    <div className={classNames(
+                            styles.menuBarItem,
+                            styles.hoverable
+                            )}>
+                        {this.props.loginState ? (
                             <React.Fragment>
-                                <a href="/mystuff/">
+                                <MenuBarItemTooltip id="mystuff">
                                     <div
                                         className={classNames(
                                             styles.menuBarItem,
@@ -602,154 +605,35 @@ class MenuBar extends React.Component {
                                             src={mystuffIcon}
                                         />
                                     </div>
-                                </a>
-                                <AccountNav
-                                    className={classNames(
-                                        styles.menuBarItem,
-                                        styles.hoverable,
-                                        {[styles.active]: this.props.accountMenuOpen}
-                                    )}
-                                    isOpen={this.props.accountMenuOpen}
-                                    isRtl={this.props.isRtl}
-                                    menuBarMenuClassName={classNames(styles.menuBarMenu)}
-                                    onClick={this.props.onClickAccount}
-                                    onClose={this.props.onRequestCloseAccount}
-                                    onLogOut={this.props.onLogOut}
-                                />
-                            </React.Fragment>
-                        ) : (
-                            // ********* user not logged in, but a session exists
-                            // ********* so they can choose to log in
-                            <React.Fragment>
-                                <div
-                                    className={classNames(
-                                        styles.menuBarItem,
-                                        styles.hoverable
-                                    )}
-                                    key="join"
-                                    onMouseUp={this.props.onOpenRegistration}
+                                </MenuBarItemTooltip>
+                                <MenuBarItemTooltip
+                                    id="account-nav"
+                                    place={this.props.isRtl ? 'right' : 'left'}
                                 >
-                                    <FormattedMessage
-                                        defaultMessage="Join Scratch"
-                                        description="Link for creating a Scratch account"
-                                        id="gui.menuBar.joinScratch"
-                                    />
-                                </div>
-                                <div
-                                    className={classNames(
-                                        styles.menuBarItem,
-                                        styles.hoverable
-                                    )}
-                                    key="login"
-                                    onMouseUp={this.props.onClickLogin}
-                                >
-                                    <FormattedMessage
-                                        defaultMessage="Sign in"
-                                        description="Link for signing in to your Scratch account"
-                                        id="gui.menuBar.signIn"
-                                    />
-                                    <LoginDropdown
-                                        className={classNames(styles.menuBarMenu)}
-                                        isOpen={this.props.loginMenuOpen}
-                                        isRtl={this.props.isRtl}
-                                        renderLogin={this.props.renderLogin}
-                                        onClose={this.props.onRequestCloseLogin}
-                                    />
-                                </div>
+                                    <div
+                                        className={classNames(
+                                            styles.menuBarItem,
+                                            styles.hoverable,
+                                            styles.accountNavMenu
+                                        )}
+                                    >
+                                        <img
+                                            className={styles.profileIcon}
+                                            src={profileIcon}
+                                        />
+                                        <span>
+                                            {'scratch-cat'}
+                                        </span>
+                                        <img
+                                            className={styles.dropdownCaretIcon}
+                                            src={dropdownCaret}
+                                        />
+                                    </div>
+                                </MenuBarItemTooltip>
                             </React.Fragment>
-                        )
-                    ) : (
-                        // ******** no login session is available, so don't show login stuff
-                        <React.Fragment>
-                            {this.props.showComingSoon ? (
-                                <React.Fragment>
-                                    <MenuBarItemTooltip id="mystuff">
-                                        <div
-                                            className={classNames(
-                                                styles.menuBarItem,
-                                                styles.hoverable,
-                                                styles.mystuffButton
-                                            )}
-                                        >
-                                            <img
-                                                className={styles.mystuffIcon}
-                                                src={mystuffIcon}
-                                            />
-                                        </div>
-                                    </MenuBarItemTooltip>
-                                    <MenuBarItemTooltip
-                                        id="account-nav"
-                                        place={this.props.isRtl ? 'right' : 'left'}
-                                    >
-                                        <div
-                                            className={classNames(
-                                                styles.menuBarItem,
-                                                styles.hoverable,
-                                                styles.accountNavMenu
-                                            )}
-                                        >
-                                            <img
-                                                className={styles.profileIcon}
-                                                src={profileIcon}
-                                            />
-                                            <span>
-                                                {'scratch-cat'}
-                                            </span>
-                                            <img
-                                                className={styles.dropdownCaretIcon}
-                                                src={dropdownCaret}
-                                            />
-                                        </div>
-                                    </MenuBarItemTooltip>
-                                </React.Fragment>
-                            ) : []}
-                        </React.Fragment>
-                    )} */
-                    <React.Fragment>
-                            {this.props.loginState ? (
-                                <React.Fragment>
-                                    <MenuBarItemTooltip id="mystuff">
-                                        <div
-                                            className={classNames(
-                                                styles.menuBarItem,
-                                                styles.hoverable,
-                                                styles.mystuffButton
-                                            )}
-                                        >
-                                            <img
-                                                className={styles.mystuffIcon}
-                                                src={mystuffIcon}
-                                            />
-                                        </div>
-                                    </MenuBarItemTooltip>
-                                    <MenuBarItemTooltip
-                                        id="account-nav"
-                                        place={this.props.isRtl ? 'right' : 'left'}
-                                    >
-                                        <div
-                                            className={classNames(
-                                                styles.menuBarItem,
-                                                styles.hoverable,
-                                                styles.accountNavMenu
-                                            )}
-                                        >
-                                            <img
-                                                className={styles.profileIcon}
-                                                src={profileIcon}
-                                            />
-                                            <span>
-                                                {'scratch-cat'}
-                                            </span>
-                                            <img
-                                                className={styles.dropdownCaretIcon}
-                                                src={dropdownCaret}
-                                            />
-                                        </div>
-                                    </MenuBarItemTooltip>
-                                </React.Fragment>
-                            ) : <LoginButton className={styles.menuBarButton} />}
-                        </React.Fragment>
-                    }
+                        ) : <LoginButton className={styles.menuBarButton} />}
+                    </div>
+                    
                 </div>
 
                 {aboutButton}

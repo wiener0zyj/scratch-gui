@@ -20,7 +20,7 @@ const ModalComponent = props => (
             [styles.fullScreen]: props.fullScreen
         })}
         contentLabel={props.contentLabel}
-        overlayClassName={styles.modalOverlay}
+        overlayClassName={classNames(styles.modalOverlay, props.overlayClassName)}
         onRequestClose={props.onRequestClose}
     >
         <Box
@@ -28,7 +28,7 @@ const ModalComponent = props => (
             direction="column"
             grow={1}
         >
-            <div className={classNames(styles.header, props.headerClassName)}>
+            {props.needHead&&<div className={classNames(styles.header, props.headerClassName)}>
                 {props.onHelp ? (
                     <div
                         className={classNames(
@@ -88,7 +88,7 @@ const ModalComponent = props => (
                         />
                     )}
                 </div>
-            </div>
+            </div>}
             {props.children}
         </Box>
     </ReactModal>
@@ -106,7 +106,11 @@ ModalComponent.propTypes = {
     headerImage: PropTypes.string,
     isRtl: PropTypes.bool,
     onHelp: PropTypes.func,
-    onRequestClose: PropTypes.func
+    onRequestClose: PropTypes.func,
+    needHead: PropTypes.bool
 };
 
+ModalComponent.defaultProps={
+    needHead:true,
+};
 export default ModalComponent;
