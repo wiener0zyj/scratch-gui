@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import {compose} from 'redux';
-import {connect} from 'react-redux';
+import { compose } from 'redux';
+import { connect } from 'react-redux';
 import ReactModal from 'react-modal';
 import VM from 'scratch-vm';
-import {injectIntl, intlShape} from 'react-intl';
+import { setToken, setNickName, setHead } from '../reducers/user-state.js'
+import { injectIntl, intlShape } from 'react-intl';
 
 import ErrorBoundaryHOC from '../lib/error-boundary-hoc.jsx';
 import {
@@ -37,15 +38,33 @@ import vmManagerHOC from '../lib/vm-manager-hoc.jsx';
 import cloudManagerHOC from '../lib/cloud-manager-hoc.jsx';
 
 import GUIComponent from '../components/gui/gui.jsx';
-import {setIsScratchDesktop} from '../lib/isScratchDesktop.js';
+import { setIsScratchDesktop } from '../lib/isScratchDesktop.js';
+import axios from 'axios';
 
 class GUI extends React.Component {
-    componentDidMount () {
+    componentDidMount() {
         setIsScratchDesktop(this.props.isScratchDesktop);
         this.props.onStorageInit(storage);
         this.props.onVmInit(this.props.vm);
+
+        const token = this.getCookie('token');
+        if (token) {
+            axios.get('http://127.0.0.1:10005/service/userinfo?token=' + token).then(response => {
+                const data = response.data;
+                if (data.status === 1) {
+                    const account = data.result.account;
+                    if (account && account.head && account.nickName) {
+                        this.props.initUserInfo(token, account.nickName, account.head);
+                    }
+                } else {
+                    alert('sever:' + data.description);
+                }
+            }).catch((err) => {
+                console.log(err);
+            });
+        }
     }
-    componentDidUpdate (prevProps) {
+    componentDidUpdate(prevProps) {
         if (this.props.projectId !== prevProps.projectId && this.props.projectId !== null) {
             this.props.onUpdateProjectId(this.props.projectId);
         }
@@ -55,7 +74,25 @@ class GUI extends React.Component {
             this.props.onProjectLoaded();
         }
     }
-    render () {
+    delCookie(name) { //删除cookie
+        var exp = new Date();
+        exp.setTime(exp.getTime() - 1000);
+        var cval = this.getCookie(name);
+        if (cval) document.cookie = name + "=" + cval + ";expires=" + exp.toUTCString();// + ";domain=zcpwriter.com";
+    }
+
+    getCookie(name) {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr) return unescape(arr[2]); return null;
+    }
+
+    setCookie(c_name, value, expiredays) {  //设置cookie函数
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + expiredays);
+        document.cookie = c_name + "=" + escape(value) +
+            ((!expiredays) ? "" : ";expires=" + exdate.toUTCString());// + ';domain=.zcpwriter.com;path=/';
+    }
+    render() {
         if (this.props.isError) {
             throw new Error(
                 `Error in Scratch GUI [location=${window.location}]: ${this.props.error}`);
@@ -109,6 +146,7 @@ GUI.propTypes = {
     onStorageInit: PropTypes.func,
     onUpdateProjectId: PropTypes.func,
     onVmInit: PropTypes.func,
+    initUserInfo: PropTypes.func,
     projectHost: PropTypes.string,
     projectId: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
     telemetryModalVisible: PropTypes.bool,
@@ -119,9 +157,9 @@ GUI.propTypes = {
 GUI.defaultProps = {
     isScratchDesktop: false,
     onStorageInit: storageInstance => storageInstance.addOfficialScratchWebStores(),
-    onProjectLoaded: () => {},
-    onUpdateProjectId: () => {},
-    onVmInit: (/* vm */) => {}
+    onProjectLoaded: () => { },
+    onUpdateProjectId: () => { },
+    onVmInit: (/* vm */) => { }
 };
 
 const mapStateToProps = state => {
@@ -163,7 +201,12 @@ const mapDispatchToProps = dispatch => ({
     onActivateSoundsTab: () => dispatch(activateTab(SOUNDS_TAB_INDEX)),
     onRequestCloseBackdropLibrary: () => dispatch(closeBackdropLibrary()),
     onRequestCloseCostumeLibrary: () => dispatch(closeCostumeLibrary()),
-    onRequestCloseTelemetryModal: () => dispatch(closeTelemetryModal())
+    onRequestCloseTelemetryModal: () => dispatch(closeTelemetryModal()),
+    initUserInfo: (token, name, head) => {
+        dispatch(setToken(token));
+        dispatch(setNickName(name));
+        dispatch(setHead(head));
+    }
 });
 
 const ConnectedGUI = injectIntl(connect(

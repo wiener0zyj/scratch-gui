@@ -23,7 +23,7 @@ import MenuBarMenu from './menu-bar-menu.jsx';
 import {MenuItem, MenuSection} from '../menu/menu.jsx';
 import ProjectTitleInput from './project-title-input.jsx';
 import AuthorInfo from './author-info.jsx';
-// import AccountNav from '../../containers/account-nav.jsx';
+import AccountNav from '../../containers/account-nav.jsx';
 // import LoginDropdown from './login-dropdown.jsx';
 import LoginButton from './login-button.jsx';
 import SB3Downloader from '../../containers/sb3-downloader.jsx';
@@ -591,46 +591,47 @@ class MenuBar extends React.Component {
                             styles.hoverable
                             )}>
                         {this.props.loginState ? (
-                            <React.Fragment>
-                                <MenuBarItemTooltip id="mystuff">
-                                    <div
-                                        className={classNames(
-                                            styles.menuBarItem,
-                                            styles.hoverable,
-                                            styles.mystuffButton
-                                        )}
-                                    >
-                                        <img
-                                            className={styles.mystuffIcon}
-                                            src={mystuffIcon}
-                                        />
-                                    </div>
-                                </MenuBarItemTooltip>
-                                <MenuBarItemTooltip
-                                    id="account-nav"
-                                    place={this.props.isRtl ? 'right' : 'left'}
-                                >
-                                    <div
-                                        className={classNames(
-                                            styles.menuBarItem,
-                                            styles.hoverable,
-                                            styles.accountNavMenu
-                                        )}
-                                    >
-                                        <img
-                                            className={styles.profileIcon}
-                                            src={profileIcon}
-                                        />
-                                        <span>
-                                            {'scratch-cat'}
-                                        </span>
-                                        <img
-                                            className={styles.dropdownCaretIcon}
-                                            src={dropdownCaret}
-                                        />
-                                    </div>
-                                </MenuBarItemTooltip>
-                            </React.Fragment>
+                            <AccountNav menuBarMenuClassName={styles.menuBarMenu}/>
+                        //     <React.Fragment>
+                        //         {/* <MenuBarItemTooltip id="mystuff">
+                        //             <div
+                        //                 className={classNames(
+                        //                     styles.menuBarItem,
+                        //                     styles.hoverable,
+                        //                     styles.mystuffButton
+                        //                 )}
+                        //             >
+                        //                 <img
+                        //                     className={styles.mystuffIcon}
+                        //                     src={mystuffIcon}
+                        //                 />
+                        //             </div>
+                        //         </MenuBarItemTooltip> */}
+                        //         {/* <MenuBarItemTooltip
+                        //             id="account-nav"
+                        //             place={this.props.isRtl ? 'right' : 'left'}
+                        //         > */}
+                        //             {/* <div
+                        //                 className={classNames(
+                        //                     styles.menuBarItem,
+                        //                     styles.hoverable,
+                        //                     styles.accountNavMenu
+                        //                 )}
+                        //             >
+                        //                 <img
+                        //                     className={styles.profileIcon}
+                        //                     src={profileIcon}
+                        //                 />
+                        //                 <span>
+                        //                     {'scratch-cat'}
+                        //                 </span>
+                        //                 <img
+                        //                     className={styles.dropdownCaretIcon}
+                        //                     src={dropdownCaret}
+                        //                 />
+                        //             </div> */}
+                        //         {/* </MenuBarItemTooltip> */}
+                        // </React.Fragment>
                         ) : <LoginButton className={styles.menuBarButton} />}
                     </div>
                     
@@ -710,7 +711,7 @@ MenuBar.defaultProps = {
 
 const mapStateToProps = (state, ownProps) => {
     const loadingState = state.scratchGui.projectState.loadingState;
-    const user = state.session && state.session.session && state.session.session.user;
+    const user = state.scratchGui.userState;
     return {
         accountMenuOpen: accountMenuOpen(state),
         fileMenuOpen: fileMenuOpen(state),
@@ -721,9 +722,10 @@ const mapStateToProps = (state, ownProps) => {
         languageMenuOpen: languageMenuOpen(state),
         locale: state.locales.locale,
         loginMenuOpen: loginMenuOpen(state),
+        loginState: state.scratchGui.userState.token,
         projectTitle: state.scratchGui.projectTitle,
-        sessionExists: state.session && typeof state.session.session !== 'undefined',
-        username: user ? user.username : null,
+        //sessionExists: state.session && typeof state.session.session !== 'undefined',
+        username: user.nickName ? user.nickName : null,
         userOwnsProject: ownProps.authorUsername && user &&
             (ownProps.authorUsername === user.username),
         vm: state.scratchGui.vm

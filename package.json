@@ -57,9 +57,9 @@
     "prop-types": "^15.5.10",
     "query-string": "^5.1.1",
     "raw-loader": "^0.5.1",
-    "react": "16.2.0",
+    "react": "16.13.1",
     "react-contextmenu": "2.9.4",
-    "react-dom": "16.2.0",
+    "react-dom": "16.13.1",
     "react-draggable": "3.0.5",
     "react-ga": "2.5.3",
     "react-intl": "2.9.0",
@@ -89,8 +89,8 @@
     "xhr": "2.5.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -100,6 +100,7 @@
     "@babel/plugin-transform-async-to-generator": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "axios": "^0.20.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
