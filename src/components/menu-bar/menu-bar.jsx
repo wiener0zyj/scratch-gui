@@ -523,8 +523,8 @@ class MenuBar extends React.Component {
                             username={this.props.authorUsername}
                         />
                     ) : null)}
-                    <div className={classNames(styles.menuBarItem)}>
-                        {this.props.canShare ? (
+                    {false&&<div className={classNames(styles.menuBarItem)}>
+                       {this.props.canShare ? (
                             (this.props.isShowingProject || this.props.isUpdating) && (
                                 <ProjectWatcher onDoneUpdating={this.props.onSeeCommunity}>
                                     {
@@ -550,8 +550,8 @@ class MenuBar extends React.Component {
                             ) : []
                         )}
                         {this.props.canRemix ? remixButton : []}
-                    </div>
-                    <div className={classNames(styles.menuBarItem, styles.communityButtonWrapper)}>
+                    </div>}
+                    {false&&<div className={classNames(styles.menuBarItem, styles.communityButtonWrapper)}>
                         {this.props.enableCommunity ? (
                             (this.props.isShowingProject || this.props.isUpdating) && (
                                 <ProjectWatcher onDoneUpdating={this.props.onSeeCommunity}>
@@ -574,7 +574,7 @@ class MenuBar extends React.Component {
                                 <CommunityButton className={styles.menuBarButton} />
                             </MenuBarItemTooltip>
                         ) : [])}
-                    </div>
+                    </div>}
                 </div>
 
                 {/* show the proper UI in the account menu, given whether the user is
