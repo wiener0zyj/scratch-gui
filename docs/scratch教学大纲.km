@@ -1,0 +1,419 @@
+{
+    "root": {
+        "data": {
+            "id": "c6jabtjhv4o0",
+            "created": 1603356173334,
+            "text": "scratch教学大纲",
+            "progress": null,
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c6jckrm8y740",
+                    "created": 1603362516644,
+                    "text": "1.介绍课程",
+                    "expandState": "expand",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6nl9rn62c80",
+                            "created": 1603793284510,
+                            "text": "scratch是什么",
+                            "background": "#e36c0a"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6nlapb75ts0",
+                            "created": 1603793357797,
+                            "text": "课程简介",
+                            "background": "#e36c0a"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6jcl0h5u5c0",
+                    "created": 1603362535928,
+                    "text": "2.介绍scratch界面",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6jg9tsrhcg0",
+                            "created": 1603372943826,
+                            "text": "菜单区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6jga1u25io0",
+                            "created": 1603372961318,
+                            "text": "舞台区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6jga5yy1e00",
+                            "created": 1603372970321,
+                            "text": "控制区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6jgai72wmg0",
+                            "created": 1603372996934,
+                            "text": "代码（选择）区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6jgar9o4n40",
+                            "created": 1603373016682,
+                            "text": "代码编辑区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6jgb089pi00",
+                            "created": 1603373036188,
+                            "text": "角色造型"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6jcqb1hdog0",
+                    "created": 1603362950745,
+                    "text": "3.模块介绍",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6jclkzoktk0",
+                            "created": 1603362580583,
+                            "text": "基础概念和通用模块",
+                            "expandState": "expand",
+                            "layout": null,
+                            "background": "#e36c0a"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6jcsonzdk00",
+                                    "created": 1603363137132,
+                                    "text": "变量",
+                                    "background": "#00b050"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c6jz56ojt7s0",
+                                            "created": 1603426181137,
+                                            "text": "变量是什么",
+                                            "background": "#8064a2",
+                                            "priority": null,
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6jz9exupi80",
+                                                    "created": 1603426512570,
+                                                    "text": "概念"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6jzxjra4v40",
+                                                            "created": 1603428403796,
+                                                            "text": "源自于数学，在计算机中指在电脑存储器里存在值的被命名的存储空间",
+                                                            "layout_right_offset": {
+                                                                "x": 0,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6jzt8zxa280",
+                                                    "created": 1603428066918,
+                                                    "text": "例子",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6jztdz383c0",
+                                                            "created": 1603428077751,
+                                                            "text": "放着玩具车的礼物盒",
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "c6mj2n19k0w0",
+                                                                    "created": 1603685523753,
+                                                                    "text": "放着文具的文具盒",
+                                                                    "expandState": "expand"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "c6mj3usgzog0",
+                                                                            "created": 1603685619001,
+                                                                            "text": "插着花的花瓶"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6jzhkxsivs0",
+                                                    "created": 1603427152540,
+                                                    "text": "特征",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6jzllw4hmw0",
+                                                            "created": 1603427468073,
+                                                            "text": "通常值可以变化，如：花瓶可以把花拿掉装满水；值不会变的称之为常量，如：1，2，3",
+                                                            "layout_right_offset": {
+                                                                "x": 9.500002546259566,
+                                                                "y": 0
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c6jzlria1xs0",
+                                                            "created": 1603427480296,
+                                                            "text": "可以赋值，可以运算",
+                                                            "layout_right_offset": {
+                                                                "x": 9.5,
+                                                                "y": 4.5
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c6jzqvzw4xk0",
+                                                    "created": 1603427881889,
+                                                    "text": "用途",
+                                                    "expandState": "collapse"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c6jzqymu6yo0",
+                                                            "created": 1603427887630,
+                                                            "text": "描述事物属性，作为承载相应信息的载体"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c6jz8q1fnq80",
+                                            "created": 1603426458367,
+                                            "text": "scratch中的变量",
+                                            "background": "#8064a2",
+                                            "expandState": "collapse"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c6jzuoko1l40",
+                                                    "created": 1603428179189,
+                                                    "text": "胶囊外形的积木"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jclxxl3v40",
+                                    "created": 1603362608755,
+                                    "text": "事件模块",
+                                    "layout": null,
+                                    "priority": null,
+                                    "expandState": "expand",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jcm6m8l140",
+                                    "created": 1603362627660,
+                                    "text": "控制模块",
+                                    "expandState": "expand",
+                                    "layout": null,
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jcubhmi1s0",
+                                    "created": 1603363265178,
+                                    "text": "侦测模块",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6jcqkje2uo0",
+                            "created": 1603362971419,
+                            "text": "动画模块",
+                            "expandState": "expand",
+                            "background": "#e36c0a"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6jcqtkovpk0",
+                                    "created": 1603362991089,
+                                    "text": "运动模块",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jcrstc2fs0",
+                                    "created": 1603363067799,
+                                    "text": "外观模块",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jctchwbk00",
+                                    "created": 1603363189007,
+                                    "text": "声音模块",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6jcnpzrsc00",
+                    "created": 1603362748201,
+                    "text": "4.美术编辑",
+                    "expandState": "collapse",
+                    "layout": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6jcuu9fx3k0",
+                            "created": 1603363306042,
+                            "text": "角色编辑",
+                            "background": "#e36c0a"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6jcva2m19s0",
+                                    "created": 1603363340458,
+                                    "text": "外部属性"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jcvrgxvaw0",
+                                    "created": 1603363378329,
+                                    "text": "内部属性（造型编辑）"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c6jcwd7u3o80",
+                            "created": 1603363425668,
+                            "text": "舞台编辑",
+                            "background": "#e36c0a"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6jcwjjufu00",
+                                    "created": 1603363439455,
+                                    "text": "相关概念"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6jcwrjzp200",
+                                    "created": 1603363456878,
+                                    "text": "背景编辑"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c6jgergnrvs0",
+                    "created": 1603373330561,
+                    "text": "5.实战案例"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fish",
+    "version": "1.4.43"
+}
