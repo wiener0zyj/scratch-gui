@@ -5,7 +5,8 @@
             "created": 1603356173334,
             "text": "scratch教学大纲",
             "progress": null,
-            "expandState": "expand"
+            "expandState": "expand",
+            "font-weight": "bold"
         },
         "children": [
             {
@@ -13,7 +14,7 @@
                     "id": "c6jckrm8y740",
                     "created": 1603362516644,
                     "text": "1.介绍课程",
-                    "expandState": "expand",
+                    "expandState": "collapse",
                     "layout": null
                 },
                 "children": [
@@ -30,7 +31,7 @@
                         "data": {
                             "id": "c6nlapb75ts0",
                             "created": 1603793357797,
-                            "text": "课程简介",
+                            "text": "课程目录",
                             "background": "#e36c0a"
                         },
                         "children": []
@@ -50,7 +51,8 @@
                         "data": {
                             "id": "c6jg9tsrhcg0",
                             "created": 1603372943826,
-                            "text": "菜单区"
+                            "text": "A、菜单区",
+                            "background": "#00b050"
                         },
                         "children": []
                     },
@@ -58,7 +60,8 @@
                         "data": {
                             "id": "c6jga1u25io0",
                             "created": 1603372961318,
-                            "text": "舞台区"
+                            "text": "B、舞台区",
+                            "background": "#00b050"
                         },
                         "children": []
                     },
@@ -66,7 +69,8 @@
                         "data": {
                             "id": "c6jga5yy1e00",
                             "created": 1603372970321,
-                            "text": "控制区"
+                            "text": "C、控制区",
+                            "background": "#00b050"
                         },
                         "children": []
                     },
@@ -74,7 +78,8 @@
                         "data": {
                             "id": "c6jgai72wmg0",
                             "created": 1603372996934,
-                            "text": "代码（选择）区"
+                            "text": "D、代码（选择）区",
+                            "background": "#00b050"
                         },
                         "children": []
                     },
@@ -82,7 +87,8 @@
                         "data": {
                             "id": "c6jgar9o4n40",
                             "created": 1603373016682,
-                            "text": "代码编辑区"
+                            "text": "E、代码编辑区",
+                            "background": "#00b050"
                         },
                         "children": []
                     },
@@ -90,7 +96,26 @@
                         "data": {
                             "id": "c6jgb089pi00",
                             "created": 1603373036188,
-                            "text": "角色造型"
+                            "text": "F、角色造型编辑区",
+                            "background": "#00b050"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6tb4tl9cm80",
+                            "created": 1604374045568,
+                            "text": "G、舞台背景编辑区",
+                            "background": "#00b050"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c6tb5rf0v3s0",
+                            "created": 1604374119202,
+                            "text": "H、声音编辑区",
+                            "background": "#00b050"
                         },
                         "children": []
                     }
@@ -101,7 +126,7 @@
                     "id": "c6jcqb1hdog0",
                     "created": 1603362950745,
                     "text": "3.模块介绍",
-                    "expandState": "expand"
+                    "expandState": "collapse"
                 },
                 "children": [
                     {
@@ -119,7 +144,8 @@
                                     "id": "c6jcsonzdk00",
                                     "created": 1603363137132,
                                     "text": "变量",
-                                    "background": "#00b050"
+                                    "background": "#00b050",
+                                    "expandState": "collapse"
                                 },
                                 "children": [
                                     {
@@ -354,7 +380,8 @@
                             "id": "c6jcuu9fx3k0",
                             "created": 1603363306042,
                             "text": "角色编辑",
-                            "background": "#e36c0a"
+                            "background": "#e36c0a",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -380,7 +407,8 @@
                             "id": "c6jcwd7u3o80",
                             "created": 1603363425668,
                             "text": "舞台编辑",
-                            "background": "#e36c0a"
+                            "background": "#e36c0a",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -409,7 +437,64 @@
                     "created": 1603373330561,
                     "text": "5.实战案例"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c6w0ysfkmmg0",
+                            "created": 1604650041634,
+                            "text": "小狗捉蝴蝶",
+                            "background": "#e36c0a",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c6w0zbg00ns0",
+                                    "created": 1604650083018,
+                                    "text": "上传迷宫背景",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6w0zhv2ll40",
+                                    "created": 1604650096990,
+                                    "text": "小狗的移动",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6w0zj6302w0",
+                                    "created": 1604650099833,
+                                    "text": "蝴蝶脚本",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6w0zk1t17k0",
+                                    "created": 1604650101751,
+                                    "text": "迷宫传送",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c6w10b33b6o0",
+                                    "created": 1604650160602,
+                                    "text": "添加得分、画笔、音乐",
+                                    "background": "#00b050"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
