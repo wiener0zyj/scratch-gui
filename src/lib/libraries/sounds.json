@@ -17,5 +17,26 @@
             "animals",
             "cat"
         ]
+    },
+    {
+        "name": "Chomp",
+        "md5": "0b1e3033140d094563248e61de4039e5.wav",
+        "sampleCount": 11648,
+        "rate": 44100,
+        "format": "",
+        "tags": [
+            "effects",
+            "human"
+        ]
+    },
+    {
+        "name": "Boing",
+        "md5": "53a3c2e27d1fb5fdb14aaf0cb41e7889.wav",
+        "sampleCount": 7113,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "effects"
+        ]
     }
 ]

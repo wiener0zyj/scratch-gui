@@ -102,5 +102,33 @@
             857,
             1
         ]
+    },
+    {
+        "name": "Tree",
+        "md5": "Tree.png",
+        "type": "backdrop",
+        "tags": [
+            "outdoors",
+            "nature"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Stars",
+        "md5": "47282ff0f7047c6fab9c94b531abf721.png",
+        "type": "backdrop",
+        "tags": [
+            "space",
+            "nasa"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
     }
 ]

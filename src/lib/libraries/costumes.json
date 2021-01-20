@@ -284,5 +284,159 @@
             122,
             1
         ]
+    },
+    {
+        "name": "Bowl-a",
+        "md5": "9c44fc81ae1c3b4b362d5576bf6cda53.svg",
+        "type": "costume",
+        "tags": [
+            "thing",
+            "food"
+        ],
+        "info": [
+            30,
+            15,
+            1
+        ]
+    },
+    {
+        "name": "Apple",
+        "md5": "1f3870be274f6c49b3e31a0c6728957f.svg",
+        "type": "costume",
+        "tags": [
+            "food",
+            "red",
+            "crunchy",
+            "fruit"
+        ],
+        "info": [
+            31,
+            31,
+            1
+        ]
+    },
+    {
+        "name": "Sun",
+        "md5": "406808d86aff20a15d592b308e166a32.svg",
+        "type": "costume",
+        "tags": [
+            "space",
+            "star",
+            "hydrogen",
+            "helium",
+            "fusion",
+            "nuclear"
+        ],
+        "info": [
+            54,
+            54,
+            1
+        ]
+    },
+    {
+        "name": "Earth",
+        "md5": "7405b5efa96995bae6853667f8cd145e.svg",
+        "type": "costume",
+        "tags": [
+            "space",
+            "planet",
+            "earth",
+            "globe"
+        ],
+        "info": [
+            55,
+            55,
+            1
+        ]
+    },
+    {
+        "name": "Ball-a",
+        "md5": "12960dbe8b07175ad189ccfb03a2746e.svg",
+        "type": "costume",
+        "tags": [
+            "round",
+            "game",
+            "bounce",
+            "circle",
+            "yellow",
+            "things"
+        ],
+        "info": [
+            22,
+            22,
+            1
+        ]
+    },
+    {
+        "name": "Ball-b",
+        "md5": "efc0b78eaea6d408ad28251b171dbcb8.svg",
+        "type": "costume",
+        "tags": [
+            "round",
+            "game",
+            "bounce",
+            "circle",
+            "blue",
+            "things"
+        ],
+        "info": [
+            22,
+            22,
+            1
+        ]
+    },
+    {
+        "name": "Ball-c",
+        "md5": "f221a2edf87aff3615c0c003e616b31b.svg",
+        "type": "costume",
+        "tags": [
+            "round",
+            "game",
+            "bounce",
+            "circle",
+            "pink",
+            "things"
+        ],
+        "info": [
+            22,
+            22,
+            1
+        ]
+    },
+    {
+        "name": "Ball-d",
+        "md5": "db144b2a19f4f1ab31e30d58f00447dc.svg",
+        "type": "costume",
+        "tags": [
+            "round",
+            "game",
+            "bounce",
+            "circle",
+            "green",
+            "things"
+        ],
+        "info": [
+            22,
+            22,
+            1
+        ]
+    },
+    {
+        "name": "Ball-e",
+        "md5": "1c44b7494dec047371f74c705f1d99fc.svg",
+        "type": "costume",
+        "tags": [
+            "round",
+            "game",
+            "bounce",
+            "circle",
+            "purple",
+            "things"
+        ],
+        "info": [
+            22,
+            22,
+            1
+        ]
     }
 ]
