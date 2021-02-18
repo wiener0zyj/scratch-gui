@@ -586,7 +586,7 @@ class MenuBar extends React.Component {
                         )}
                     </div>
                     
-                    <div className={classNames(
+                    {false &&<div className={classNames(
                             styles.menuBarItem,
                             styles.hoverable
                             )}>
@@ -633,7 +633,7 @@ class MenuBar extends React.Component {
                         //         {/* </MenuBarItemTooltip> */}
                         // </React.Fragment>
                         ) : <LoginButton className={styles.menuBarButton} />}
-                    </div>
+                    </div>}
                     
                 </div>
 

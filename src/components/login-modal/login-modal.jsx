@@ -65,7 +65,7 @@ class LoginModal extends React.Component {
             password: password
         };
         //调用登录接口，成功返回token和头像、昵称等信息，失败重新登陆
-        axios.post('http://127.0.0.1:10005/service/login', sendData, { headers: { 'Content-Type': 'application/json' } }).then(response => {
+        axios.post('http://127.0.0.1:10015/service/login', sendData, { headers: { 'Content-Type': 'application/json' } }).then(response => {
             const data = response.data;
             switch (data.status) {
                 case -1:
@@ -146,8 +146,8 @@ class LoginModal extends React.Component {
                         <input type="password" ref={this.passRef} onBlur={this.onPassBlur} />
                     </div>
                     <div className={styles.loginModalFormItem}>
-                        <a href='http://localhost:10005/register' className={styles.loginModalFl}>注册账号</a>
-                        <a href='http://localhost:10005/forget' className={styles.loginModalFr}>忘记密码</a>
+                        <a href='http://localhost:10015/register' className={styles.loginModalFl}>注册账号</a>
+                        <a href='http://localhost:10015/forget' className={styles.loginModalFr}>忘记密码</a>
                     </div>
                     <div className={styles.loginModalButtonRow}>
                         <button type='button' className={styles.loginModalOkButton} onClick={this.login.bind(this)}>登录</button>
