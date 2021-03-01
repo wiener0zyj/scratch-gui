@@ -130,5 +130,104 @@
             720,
             2
         ]
+    },
+    {
+        "name": "Castle 1",
+        "md5": "e1914ed7917267f1c2ef2b48004cade9.png",
+        "type": "backdrop",
+        "tags": [
+            "fantasy"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Castle 2",
+        "md5": "951765ee7f7370f120c9df20b577c22f.png",
+        "type": "backdrop",
+        "tags": [
+            "fantasy"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Galaxy",
+        "md5": "5fab1922f254ae9fd150162c3e392bef.png",
+        "type": "backdrop",
+        "tags": [
+            "space",
+            "stars",
+            "nasa"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Nebula",
+        "md5": "9b5cdbd596da1b6149f56b794b6394f4.png",
+        "type": "backdrop",
+        "tags": [
+            "space",
+            "nasa",
+            "bubble",
+            "hubble"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Playground",
+        "md5": "e5f794c8756ca0cead5cb7e7fe354c41.png",
+        "type": "backdrop",
+        "tags": [
+            "outdoors",
+            "play"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Basketball 2",
+        "md5": "97c6bc1133d634bbc80bb6bc8a545e8d.png",
+        "type": "backdrop",
+        "tags": [
+            "outdoors",
+            "sports",
+            "basketball"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Bedroom 2",
+        "md5": "e2f8b0dbd0a65d2ad8bfc21616662a6a.png",
+        "type": "backdrop",
+        "tags": [
+            "indoors"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
     }
 ]
