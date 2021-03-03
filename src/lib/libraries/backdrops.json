@@ -229,5 +229,68 @@
             720,
             2
         ]
+    },
+    {
+        "name": "Farm",
+        "md5": "1e8a70bd07f1dcba3383883f3b948266.png",
+        "type": "backdrop",
+        "tags": [
+            "outdoors",
+            "chicken",
+            "barn",
+            "coup",
+            "owen davey"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Blue Sky",
+        "md5": "e7c147730f19d284bcd7b3f00af19bb6.svg",
+        "type": "backdrop",
+        "tags": [
+            "outdoors",
+            "flying"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
+    },
+    {
+        "name": "Desert",
+        "md5": "d98a9526a34890cf4bad11b5409eae2a.png",
+        "type": "backdrop",
+        "tags": [
+            "desert",
+            " landscape",
+            " outdoors",
+            " cacti"
+        ],
+        "info": [
+            960,
+            720,
+            2
+        ]
+    },
+    {
+        "name": "Baseball 1",
+        "md5": "1fd7c97fc76876d0ea105471e9b6fd87.svg",
+        "type": "backdrop",
+        "tags": [
+            "baseball",
+            "sports",
+            "outdoors",
+            "alex eben meyer"
+        ],
+        "info": [
+            480,
+            360,
+            1
+        ]
     }
 ]
