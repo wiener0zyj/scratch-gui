@@ -852,5 +852,115 @@
             21,
             1
         ]
+    },
+    {
+        "name": "Dog1-a",
+        "md5": "35cd78a8a71546a16c530d0b2d7d5a7f.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "puppy",
+            "puppies",
+            "mammals"
+        ],
+        "info": [
+            83,
+            80,
+            1
+        ]
+    },
+    {
+        "name": "Dog1-b",
+        "md5": "d5a72e1eb23a91df4b53c0b16493d1e6.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "puppy",
+            "puppies",
+            "mammals"
+        ],
+        "info": [
+            83,
+            80,
+            1
+        ]
+    },
+    {
+        "name": "Batter-a",
+        "md5": "9d193bef6e3d6d8eba6d1470b8bf9351.svg",
+        "type": "costume",
+        "tags": [
+            "baseball",
+            "sports",
+            "people",
+            "alex eben meyer"
+        ],
+        "info": [
+            46,
+            80,
+            1
+        ]
+    },
+    {
+        "name": "Batter-b",
+        "md5": "fdfde4bcbaca0f68e83fdf3f4ef0c660.svg",
+        "type": "costume",
+        "tags": [
+            "baseball",
+            "sports",
+            "people",
+            "alex eben meyer"
+        ],
+        "info": [
+            16,
+            67,
+            1
+        ]
+    },
+    {
+        "name": "Batter-c",
+        "md5": "bd4fc003528acfa847e45ff82f346eee.svg",
+        "type": "costume",
+        "tags": [
+            "baseball",
+            "sports",
+            "people",
+            "alex eben meyer"
+        ],
+        "info": [
+            94,
+            66,
+            1
+        ]
+    },
+    {
+        "name": "Batter-d",
+        "md5": "592ee9ab2aeefe65cb4fb95fcd046f33.svg",
+        "type": "costume",
+        "tags": [
+            "baseball",
+            "sports",
+            "people",
+            "alex eben meyer"
+        ],
+        "info": [
+            70,
+            102,
+            1
+        ]
+    },
+    {
+        "name": "Tennisball",
+        "md5": "34fa36004be0340ec845ba6bbeb5e5d5.png",
+        "type": "costume",
+        "tags": [
+            "ball",
+            "sports"
+        ],
+        "info": [
+            60,
+            60,
+            2
+        ]
     }
 ]
