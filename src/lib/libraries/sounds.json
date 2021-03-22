@@ -83,5 +83,40 @@
             "effects",
             "fantasy"
         ]
+    },
+    {
+        "name": "Basketball Bounce",
+        "md5": "1727f65b5f22d151685b8e5917456a60.wav",
+        "sampleCount": 8129,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "sports",
+            "effects"
+        ]
+    },
+    {
+        "name": "Dance Celebrate",
+        "md5": "0edb8fb88af19e6e17d0f8cf64c1d136.wav",
+        "sampleCount": 176785,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "music",
+            "loops",
+            "electronic"
+        ]
+    },
+    {
+        "name": "Dance Magic",
+        "md5": "042309f190183383c0b1c1fc3edc2e84.wav",
+        "sampleCount": 187961,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "music",
+            "electronic",
+            "loops"
+        ]
     }
 ]
