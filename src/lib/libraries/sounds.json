@@ -1,21 +1,23 @@
 [
     {
-        "name": "Pop",
-        "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
-        "sampleCount": 1032,
-        "rate": 44100,
-        "format": "",
-        "tags": []
+        "name": "BasketballBounce",
+        "md5": "1727f65b5f22d151685b8e5917456a60.wav",
+        "sampleCount": 8129,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "sports",
+            "effects"
+        ]
     },
     {
-        "name": "Meow",
-        "md5": "83c36d806dc92327b9e7049a565c6bff.wav",
-        "sampleCount": 37376,
-        "rate": 44100,
-        "format": "",
+        "name": "Boing",
+        "md5": "53a3c2e27d1fb5fdb14aaf0cb41e7889.wav",
+        "sampleCount": 7113,
+        "rate": 22050,
+        "format": "adpcm",
         "tags": [
-            "animals",
-            "cat"
+            "effects"
         ]
     },
     {
@@ -30,22 +32,38 @@
         ]
     },
     {
-        "name": "Boing",
-        "md5": "53a3c2e27d1fb5fdb14aaf0cb41e7889.wav",
-        "sampleCount": 7113,
+        "name": "DanceCelebrate",
+        "md5": "0edb8fb88af19e6e17d0f8cf64c1d136.wav",
+        "sampleCount": 176785,
         "rate": 22050,
         "format": "adpcm",
         "tags": [
-            "effects"
+            "music",
+            "loops",
+            "electronic"
         ]
     },
     {
-        "name": "Space Ripple",
-        "md5": "ff8b8c3bf841a11fd5fe3afaa92be1b5.wav",
-        "sampleCount": 164596,
+        "name": "DanceMagic",
+        "md5": "042309f190183383c0b1c1fc3edc2e84.wav",
+        "sampleCount": 187961,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "music",
+            "electronic",
+            "loops"
+        ]
+    },
+    {
+        "name": "Dog1",
+        "md5": "b15adefc3c12f758b6dc6a045362532f.wav",
+        "sampleCount": 7344,
         "rate": 44100,
         "format": "",
-        "tags": []
+        "tags": [
+            "animals"
+        ]
     },
     {
         "name": "Laser1",
@@ -64,17 +82,7 @@
         "tags": []
     },
     {
-        "name": "Dog1",
-        "md5": "b15adefc3c12f758b6dc6a045362532f.wav",
-        "sampleCount": 7344,
-        "rate": 44100,
-        "format": "",
-        "tags": [
-            "animals"
-        ]
-    },
-    {
-        "name": "Magic Spell",
+        "name": "MagicSpell",
         "md5": "1cb60ecdb1075c8769cb346d5c2a22c7.wav",
         "sampleCount": 43689,
         "rate": 22050,
@@ -85,38 +93,30 @@
         ]
     },
     {
-        "name": "Basketball Bounce",
-        "md5": "1727f65b5f22d151685b8e5917456a60.wav",
-        "sampleCount": 8129,
-        "rate": 22050,
-        "format": "adpcm",
+        "name": "Meow",
+        "md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+        "sampleCount": 37376,
+        "rate": 44100,
+        "format": "",
         "tags": [
-            "sports",
-            "effects"
+            "animals",
+            "cat"
         ]
     },
     {
-        "name": "Dance Celebrate",
-        "md5": "0edb8fb88af19e6e17d0f8cf64c1d136.wav",
-        "sampleCount": 176785,
-        "rate": 22050,
-        "format": "adpcm",
-        "tags": [
-            "music",
-            "loops",
-            "electronic"
-        ]
+        "name": "Pop",
+        "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+        "sampleCount": 1032,
+        "rate": 44100,
+        "format": "",
+        "tags": []
     },
     {
-        "name": "Dance Magic",
-        "md5": "042309f190183383c0b1c1fc3edc2e84.wav",
-        "sampleCount": 187961,
-        "rate": 22050,
-        "format": "adpcm",
-        "tags": [
-            "music",
-            "electronic",
-            "loops"
-        ]
+        "name": "SpaceRipple",
+        "md5": "ff8b8c3bf841a11fd5fe3afaa92be1b5.wav",
+        "sampleCount": 164596,
+        "rate": 44100,
+        "format": "",
+        "tags": []
     }
 ]
