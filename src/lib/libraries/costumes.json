@@ -1145,6 +1145,84 @@
         ]
     },
     {
+        "name": "SanXingDui-1",
+        "md5": "24fdab0c8a0c40f29168b84537dce93e.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            380,
+            426,
+            2
+        ]
+    },
+    {
+        "name": "SanXingDui-2",
+        "md5": "f0ba05b1282e68c6793a3ab107114adc.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            426,
+            304,
+            2
+        ]
+    },
+    {
+        "name": "SanXingDui-3",
+        "md5": "4b22ad6f81da5875151dbb54e4ab3abb.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            310,
+            414,
+            2
+        ]
+    },
+    {
+        "name": "SanXingDui-4",
+        "md5": "712068b135c3daf214b908186001c04b.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            331,
+            450,
+            2
+        ]
+    },
+    {
+        "name": "SanXingDui-5",
+        "md5": "2c2ca522cc0d612998bd2e5a881b674a.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            234,
+            450,
+            2
+        ]
+    },
+    {
+        "name": "SanXingDui-6",
+        "md5": "cfbbf8540eea4ec5d09842af3a2bb9d4.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            117,
+            450,
+            2
+        ]
+    },
+    {
         "name": "Sheep-a",
         "md5": "3c6241985b581284ec191f9d1deffde8.svg",
         "type": "costume",
@@ -1225,6 +1303,19 @@
             54,
             54,
             1
+        ]
+    },
+    {
+        "name": "SunWuKong",
+        "md5": "abaaefd9d6662660734b8ea8f558181d.png",
+        "type": "costume",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            439,
+            500,
+            2
         ]
     },
     {

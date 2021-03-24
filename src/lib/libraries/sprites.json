@@ -1981,6 +1981,282 @@
         }
     },
     {
+        "name": "san xing dui 1",
+        "md5": "24fdab0c8a0c40f29168b84537dce93e.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "san xing dui 1",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "24fdab0c8a0c40f29168b84537dce93e",
+                    "name": "SanXingDui-1",
+                    "bitmapResolution": 2,
+                    "md5ext": "24fdab0c8a0c40f29168b84537dce93e.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 190,
+                    "rotationCenterY": 213
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "san xing dui 1"
+        }
+    },
+    {
+        "name": "san xing dui 2",
+        "md5": "f0ba05b1282e68c6793a3ab107114adc.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "san xing dui 2",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "f0ba05b1282e68c6793a3ab107114adc",
+                    "name": "SanXingDui-2",
+                    "bitmapResolution": 2,
+                    "md5ext": "f0ba05b1282e68c6793a3ab107114adc.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 213,
+                    "rotationCenterY": 152
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "san xing dui 2"
+        }
+    },
+    {
+        "name": "san xing dui 3",
+        "md5": "4b22ad6f81da5875151dbb54e4ab3abb.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "san xing dui 3",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "4b22ad6f81da5875151dbb54e4ab3abb",
+                    "name": "SanXingDui-3",
+                    "bitmapResolution": 2,
+                    "md5ext": "4b22ad6f81da5875151dbb54e4ab3abb.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 155,
+                    "rotationCenterY": 207
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "san xing dui 3"
+        }
+    },
+    {
+        "name": "san xing dui 4",
+        "md5": "712068b135c3daf214b908186001c04b.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "san xing dui 4",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "712068b135c3daf214b908186001c04b",
+                    "name": "SanXingDui-4",
+                    "bitmapResolution": 2,
+                    "md5ext": "712068b135c3daf214b908186001c04b.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 165.5,
+                    "rotationCenterY": 225
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "san xing dui 4"
+        }
+    },
+    {
+        "name": "san xing dui 5",
+        "md5": "2c2ca522cc0d612998bd2e5a881b674a.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "san xing dui 5",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "2c2ca522cc0d612998bd2e5a881b674a",
+                    "name": "SanXingDui-5",
+                    "bitmapResolution": 2,
+                    "md5ext": "2c2ca522cc0d612998bd2e5a881b674a.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 117,
+                    "rotationCenterY": 225
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "san xing dui 5"
+        }
+    },
+    {
+        "name": "san xing dui 6",
+        "md5": "cfbbf8540eea4ec5d09842af3a2bb9d4.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "san xing dui 6",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "cfbbf8540eea4ec5d09842af3a2bb9d4",
+                    "name": "SanXingDui-6",
+                    "bitmapResolution": 2,
+                    "md5ext": "cfbbf8540eea4ec5d09842af3a2bb9d4.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 58.5,
+                    "rotationCenterY": 225
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "san xing dui 6"
+        }
+    },
+    {
         "name": "Sheep",
         "md5": "3c6241985b581284ec191f9d1deffde8.svg",
         "type": "sprite",
@@ -2184,6 +2460,52 @@
             "draggable": false,
             "rotationStyle": "all around",
             "objName": "Sun"
+        }
+    },
+    {
+        "name": "Sun Wu Kong",
+        "md5": "abaaefd9d6662660734b8ea8f558181d.png",
+        "type": "sprite",
+        "tags": [
+            "people"
+        ],
+        "info": [
+            0,
+            1,
+            0
+        ],
+        "json": {
+            "isStage": false,
+            "name": "Sun Wu Kong",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "abaaefd9d6662660734b8ea8f558181d",
+                    "name": "SunWuKong",
+                    "bitmapResolution": 2,
+                    "md5ext": "abaaefd9d6662660734b8ea8f558181d.png",
+                    "dataFormat": "png",
+                    "rotationCenterX": 219.5,
+                    "rotationCenterY": 250
+                }
+            ],
+            "sounds": [
+            ],
+            "volume": 100,
+            "layerOrder": 6,
+            "visible": true,
+            "x": 39,
+            "y": -20,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "Sun Wu Kong"
         }
     },
     {
