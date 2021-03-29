@@ -670,6 +670,76 @@
         ]
     },
     {
+        "name": "Cat Flying-a",
+        "md5": "a1ab94c8172c3b97ed9a2bf7c32172cd.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "cat",
+            "kitty",
+            "kitten"
+        ],
+        "info": [
+            55,
+            37,
+            1
+        ]
+    },
+    {
+        "name": "Cat Flying-b",
+        "md5": "6667936a2793aade66c765c329379ad0.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "cat",
+            "kitty",
+            "kitten"
+        ],
+        "info": [
+            44,
+            46,
+            1
+        ]
+    },
+    {
+        "name": "Cat-a",
+        "md5": "bcf454acf82e4504149f7ffe07081dbc.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "cat",
+            "kitten",
+            "kitty",
+            "mammal",
+            "orange",
+            "scratch cat"
+        ],
+        "info": [
+            48,
+            50,
+            1
+        ]
+    },
+    {
+        "name": "Cat-b",
+        "md5": "0fb9be3e8397c983338cb71dc84d0b25.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "cat",
+            "kitten",
+            "kitty",
+            "mammal",
+            "orange",
+            "scratch cat"
+        ],
+        "info": [
+            46,
+            53,
+            1
+        ]
+    },
+    {
         "name": "Convertible3",
         "md5": "621817ef84ad81f5690fac95adab2ede.svg",
         "type": "costume",
