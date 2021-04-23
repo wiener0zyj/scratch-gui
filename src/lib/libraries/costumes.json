@@ -1114,6 +1114,70 @@
         ]
     },
     {
+        "name": "Pufferfish-a",
+        "md5": "b8aa1bd46eacc054c695b89167c3ad28.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "ocean",
+            "underwater",
+            "daria skrybchencko"
+        ],
+        "info": [
+            69,
+            61,
+            1
+        ]
+    },
+    {
+        "name": "Pufferfish-b",
+        "md5": "1b4f39763c9848cc840522b95cc6d8ae.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "ocean",
+            "underwater",
+            "daria skrybchencko"
+        ],
+        "info": [
+            69,
+            61,
+            1
+        ]
+    },
+    {
+        "name": "Pufferfish-c",
+        "md5": "2266c6bb2c3a8fb80783518a08852b4a.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "ocean",
+            "underwater",
+            "daria skrybchencko"
+        ],
+        "info": [
+            69,
+            61,
+            1
+        ]
+    },
+    {
+        "name": "Pufferfish-d",
+        "md5": "e73e71718306f6c7085305dba142c315.svg",
+        "type": "costume",
+        "tags": [
+            "animals",
+            "ocean",
+            "underwater",
+            "daria skrybchencko"
+        ],
+        "info": [
+            69,
+            61,
+            1
+        ]
+    },
+    {
         "name": "Rabbit-a",
         "md5": "dc6a584704c09a3fbafb9825635a9fd4.svg",
         "type": "costume",

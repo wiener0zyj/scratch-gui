@@ -1871,6 +1871,91 @@
             "rotationStyle": "all around",
             "objName": "Mouse1"
         }
+    },{
+        "name": "Pufferfish",
+        "md5": "b8aa1bd46eacc054c695b89167c3ad28.svg",
+        "type": "sprite",
+        "tags": [
+            "animals",
+            "ocean",
+            "sea",
+            "underwater",
+            "daria skrybchencko"
+        ],
+        "info": [
+            0,
+            4,
+            1
+        ],
+        "json": {
+            "isStage": false,
+            "name": "Pufferfish",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "assetId": "b8aa1bd46eacc054c695b89167c3ad28",
+                    "name": "pufferfish-a",
+                    "bitmapResolution": 1,
+                    "md5ext": "b8aa1bd46eacc054c695b89167c3ad28.svg",
+                    "dataFormat": "svg",
+                    "rotationCenterX": 69,
+                    "rotationCenterY": 61
+                },
+                {
+                    "assetId": "1b4f39763c9848cc840522b95cc6d8ae",
+                    "name": "pufferfish-b",
+                    "bitmapResolution": 1,
+                    "md5ext": "1b4f39763c9848cc840522b95cc6d8ae.svg",
+                    "dataFormat": "svg",
+                    "rotationCenterX": 69,
+                    "rotationCenterY": 61
+                },
+                {
+                    "assetId": "2266c6bb2c3a8fb80783518a08852b4a",
+                    "name": "pufferfish-c",
+                    "bitmapResolution": 1,
+                    "md5ext": "2266c6bb2c3a8fb80783518a08852b4a.svg",
+                    "dataFormat": "svg",
+                    "rotationCenterX": 69,
+                    "rotationCenterY": 61
+                },
+                {
+                    "assetId": "e73e71718306f6c7085305dba142c315",
+                    "name": "pufferfish-d",
+                    "bitmapResolution": 1,
+                    "md5ext": "e73e71718306f6c7085305dba142c315.svg",
+                    "dataFormat": "svg",
+                    "rotationCenterX": 69,
+                    "rotationCenterY": 61
+                }
+            ],
+            "sounds": [
+                {
+                    "assetId": "c904610d770398b98872a708a2f75611",
+                    "name": "ocean wave",
+                    "dataFormat": "wav",
+                    "format": "adpcm",
+                    "rate": 22050,
+                    "sampleCount": 99569,
+                    "md5ext": "c904610d770398b98872a708a2f75611.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 4,
+            "visible": true,
+            "x": -36,
+            "y": 45,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around",
+            "objName": "Pufferfish"
+        }
     },
     {
         "name": "Rabbit",

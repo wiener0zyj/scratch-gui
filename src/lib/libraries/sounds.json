@@ -104,6 +104,18 @@
         ]
     },
     {
+        "name": "Ocean Wave",
+        "md5": "c904610d770398b98872a708a2f75611.wav",
+        "sampleCount": 99569,
+        "rate": 22050,
+        "format": "adpcm",
+        "tags": [
+            "effects",
+            "water",
+            "underwater"
+        ]
+    },
+    {
         "name": "Pop",
         "md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
         "sampleCount": 1032,
